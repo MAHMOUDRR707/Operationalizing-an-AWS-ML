@@ -6,6 +6,8 @@
 
 # Setup, training, and deployment on SageMaker
 
+**All picture in screenshot section**
+
 ## Notebook Instance
 
 The instance I used for my Jupyter notebook was ml.t3.medium. I selected this instance type since it is affordable and qualifies for the AWS free tier while being powerful enough to run the programs I intended to run on it. I was aware that while model tuning, training, and deployment would take place on other instances, I would be installing packages, downloading, unzipping, and uploading images on this instance. Additionally, I needed ml.t3.medium's quick launch feature because I expected to shut down and restart the notebook several times throughout the project.
